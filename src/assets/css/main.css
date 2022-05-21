@@ -1,0 +1,57 @@
+* {
+    font-family: "Montserrat", sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+:root {
+    --main-color: #062060;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: var(--main-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+}
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #EE450A;
+}
+
+.btn-header {
+    color: #fff;
+}
+
+.btn-header:hover {
+    color: #fff;
+    background: #062060;
+}
+
+.card:hover {
+    box-shadow: 0 0 54px rgba(9, 76, 201, 0.3);
+}

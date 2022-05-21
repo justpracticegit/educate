@@ -1,0 +1,343 @@
+/*mobile*/
+@media (max-width: 575px) {
+    /*homePage*/
+    .intro-paragraph-h1 {
+        max-width: 66%;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .intro-content {
+        flex-direction: column;
+    }
+
+    .img-intro-home {
+        width: 100%;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .intro-paragraph {
+        margin-right: 0 !important;
+    }
+
+    .btn-start {
+        margin-right: 0 !important;
+    }
+
+    .aboutintro-inner {
+        flex-direction: column;
+    }
+
+    .aboutintro {
+        background: none !important;
+    }
+
+    .aboutparagraph, p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+
+    .aboutparagraph {
+        transform: translateY(-615px);
+    }
+
+
+
+    .about-subtitle {
+        margin-top: 27px;
+    }
+
+    .watchvideo {
+        background: none !important;
+    }
+    
+    .virtual-cloud-title {
+        text-align: center;
+    }
+
+    .watchvideoleft {
+        margin-top: 140px;
+    }
+
+    .course {
+        background: none;
+        margin-top: 200px;
+        display: none;
+    }
+
+    .stair-review {
+        display: none;
+    }
+
+    .watchvideoflex {
+        flex-direction: column-reverse;
+    }
+
+    .watchvideoleft-img {
+        width: 100%;
+    }
+
+    .stairs-first {
+        display: none;
+        margin-left: -267px;
+    }
+
+    .stairs-second {
+        display: none;
+        margin-left: -331px;
+    }
+
+    .griding {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .card-img-top {
+        width: 100% !important;
+    }
+
+    .card-title {
+        width: 33%;
+    }
+
+    .card-body {
+        width: 0 !important;
+        height: 0 !important;
+        flex: none !important;
+        padding: 0 !important;
+    }
+
+    .card-text {
+        margin: 0;
+        width: 62%;
+    }
+
+    .btn-watch {
+        margin: 0 auto !important;
+    }
+
+    .reviews {
+        background: none !important;
+    }
+
+    .stair-review {
+        margin-left: -11px !important;
+        width: 100%;
+    }
+
+    .rates {
+        background: none !important;
+    }
+
+    .rates__list-item {
+        display: none;
+        height: 100%;
+    }
+
+    .rates__list__item--active {
+        display: block;
+    }
+
+    .rates__content {
+        min-height: 0;
+    }
+
+    .questionandanswer {
+        flex-direction: column;
+    }
+
+    .faq {
+        background: none !important;
+    }
+
+    .faqright {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #accordionExample {
+        width: 100%;
+    }
+
+    .apply-content {
+        flex-direction: column !important;
+        margin-top: 100px;
+    }
+
+    .apply-image {
+        display: none;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    /*homePage*/
+
+    /*articlePage*/
+    .mygrid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /*articlePage*/
+
+    /*coursesPage*/
+    .introflex {
+        flex-direction: column;
+    }
+
+    .introflexright-img {
+        width: 100%;
+    }
+    /*coursesPage*/
+
+    /*profTestPage*/
+    .proftestcloud {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .onlinetest {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        width: 100%;
+    }
+    /*profTestPage*/
+
+    /*personalCabinetPage*/
+    .personal-cabinet {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    /*personalCabinetPage*/
+
+    /*applyPage*/
+    .request {
+        display: flex;
+    }
+
+    .personalinfo {
+        flex-direction: column;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .lastname {
+        margin-left: 0 !important;
+    }
+
+    .selectAll {
+        flex-direction: column;
+    }
+
+    select, input {
+        width: 100% !important;
+    }
+
+    .apply-content {
+        margin-right: 0 !important;
+    }
+
+    .apply {
+        background: none !important;
+    }
+    
+    .send-p {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: center;
+    }
+
+    .send {
+        margin-left: 0 !important;
+    }
+    /*applyPage*/
+
+    .reviews__items {
+        display: block;
+    }
+
+    /*footer*/
+    .footer-logo {
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .f-div {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .f-div-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f-nav {
+        display: flex;
+    }
+    /*footer*/
+
+    .intro-paragraph-p {
+        margin: 0;
+        width: 100% !important;
+    }
+
+    .img-intro {
+        padding-top: 0 !important;
+    }
+
+    .email {
+        margin-top: 15px;
+    }
+
+    .telephone {
+        margin-top: 15px;
+    }
+
+    .virtual-cloud-description {
+        margin-left: 59px;
+        margin-right: 59px;
+        width: 80%;
+    }
+
+    .apply-background-second {
+        display: block !important;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        transform: translateY(-1277px);
+    }
+
+    .about-background {
+        display: block !important;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .apply-background {
+        display: block !important;
+        position: relative;
+        z-index: -1;
+        /* margin-top: 1456px; */
+        transform: translateY(2032px);
+        margin-top: -1900px;
+    }
+
+
+
+
+
+
+    .cloudimg {
+        width: 100%;
+    }
+}
+
